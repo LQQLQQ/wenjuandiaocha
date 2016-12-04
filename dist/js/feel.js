@@ -53,7 +53,7 @@
 	    } else {
 	        $(this).addClass('active');
 	        $('.feel_submit').on('click', function () {
-	            window.location.href = '';
+	            window.location.href = '../html/levelQuality.html';
 	        });
 	    }
 	});

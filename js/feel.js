@@ -7,7 +7,7 @@ $('.feel_main_main .feel_list').on('click','span',function(){
    }else{
        $(this).addClass('active')
        $('.feel_submit').on('click',function(){
-           window.location.href=''
+           window.location.href='../html/levelQuality.html';
        })
    }
 })
