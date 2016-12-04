@@ -1,0 +1,115 @@
+@import "reset";
+html,body,.indexshouye{
+  width: 100%;
+  height: 100%;
+}
+.indexshouye{
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction:column;
+}
+.indexshouye_header{
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+  background: #000;
+  display: -webkit-flex;
+  color:#fff;
+  position: relative;
+  .return{
+    position: absolute;
+    left:.25rem;
+    font-size: .35rem;
+  }
+  h1{
+    margin-left:43%;
+    font-size: .35rem;
+  }
+  p{
+    position: absolute;
+    right: .2rem;
+    font-size: 20px;
+    span{
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      margin-left: .1rem;
+      border-radius: 8px;
+    }
+  }
+}
+.indexshouye_main{
+  width: 100%;
+  -webkit-flex:1;
+  overflow: hidden;
+  .indexshouye_main_header{
+    width:100%;
+    height: .88rem;
+    line-height:.88rem;
+    display: -webkit-flex;
+    position: relative;
+    font-size: .35rem;
+    span{
+      position: absolute;
+      left:.25rem;
+      color:#989898;
+    }
+    h1{
+      margin-left: 43%;
+      color:#000;
+    }
+
+  }
+  .indexshouye_main_main{
+    width: 100%;
+    height: 100%;
+    background: url('../img/1.jpg');
+    background-size: cover;
+    position: relative;
+    .index_text{
+      position: absolute;
+      left:.8rem;
+      top:.7rem;
+      width: 84%;
+      height: 1.8rem;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .index_wawa{
+      position: absolute;
+      width: 78.152%;
+      height: 7rem;
+      left:1.1rem;
+      top:2.71rem;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .begin{
+      position: absolute;
+      left:3.3rem;
+      top:8.6rem;
+      width: 2.13rem;
+      height: .78rem;
+      position: relative;
+      span{
+        position: absolute;
+        left:.6rem;
+        top:.13rem;
+        font-size: .4rem;
+        color:#AF0700;
+
+      }
+      img{
+        width: 100%;
+        height:100%;
+      }
+    }
+
+  }
+}

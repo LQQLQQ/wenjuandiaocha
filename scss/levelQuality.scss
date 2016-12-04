@@ -1,0 +1,212 @@
+@import 'reset';
+html,body,.levelQuality{
+  width: 100%;
+  height: 100%;
+}
+.levelQuality{
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+.levelQuality_header{
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+  background: #000;
+  display: -webkit-flex;
+  color:#fff;
+  position: relative;
+  .return{
+    position: absolute;
+    left:.25rem;
+    font-size: .35rem;
+  }
+  h1{
+    margin-left:43%;
+    font-size: .35rem;
+  }
+  p{
+    position: absolute;
+    right: .2rem;
+    font-size: 20px;
+    span{
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      margin-left: .1rem;
+      border-radius: 8px;
+    }
+  }
+}
+.levelQuality_main{
+  width: 100%;
+  -webkit-flex:1;
+  overflow: hidden;
+  .levelQuality_main_header{
+      width:100%;
+      height: .88rem;
+      line-height:.88rem;
+      display: -webkit-flex;
+      position: relative;
+      font-size: .35rem;
+      span{
+        position: absolute;
+        left:.25rem;
+        color:#989898;
+      }
+      h1{
+        margin-left: 43%;
+      }
+  }
+  .levelQuality_main_main{
+    width: 100%;
+    background: #eee;
+    .levelQuality_main_main_header{
+      width: 100%;
+      height: 2.43rem;
+      position: relative;
+      background: #f6514b;
+      ul{
+        width: 100%;
+        padding: .3rem 0 0 .46rem;
+        font-size: 10px;
+        color:#ffc5c3;
+
+        .levelQuality_big{
+          font-size: 20px;
+          color:#fff;
+        }
+        li{
+          padding-top: .1rem;
+        }
+      }
+      .levelQuality_right{
+        position: absolute;
+        right:.4rem;
+        top:.8rem;
+        color:#999;
+        font-size: 36px;
+      }
+    }
+    .levelQuality_main_main_header1{
+        width: 100%;
+        height: 1.5rem;
+        position: relative;
+        background: #f6514b;
+          display: none;
+        ul{
+          width: 100%;
+          padding: .2rem 0 0 .46rem;
+          font-size: 10px;
+          color:#ffc5c3;
+          .levelQuality_big{
+            font-size: 20px;
+            color:#fff;
+          }
+          li{
+            padding-top: .1rem;
+          }
+        }
+        .levelQuality_right{
+          position: absolute;
+          right:.4rem;
+          top:.3rem;
+          color:#999;
+          font-size: 36px;
+      }
+    }
+    .levelQuality_main_main_header2{
+      width: 100%;
+      height: 1.5rem;
+      line-height: 1.5rem;
+      display: none;
+      background: #f6514b;
+      h1{
+        text-align: center;
+        color:#fff;
+        font-size: 20px;
+
+      }
+    }
+    .levelQuality_main_main_header2_content{
+      width: 100%;
+      display: none;
+      background: #fff;
+      ul{
+        width: 100%;
+        padding: .2rem;
+        li{
+          padding: .08rem;
+        }
+      }
+      .fulltext{
+        width: 100%;
+        text-align: center;
+        padding: .2rem;
+        border: 1px solid #eee;
+        ul{
+          width: 100%;
+          li{
+            width: 100%;
+          }
+        }
+      }
+      .fulltext_text{
+        display: none;
+      }
+
+
+    }
+    .levelQuality_center{
+      margin-top: .2rem;
+      ul{
+        width: 100%;
+        li{
+          border: 1px solid #eee;
+          background: #fff;
+          color:#f6514b;
+          padding:  .2rem 0 .2rem .46rem;
+          position: relative;
+          span{
+            position: absolute;
+            right: .2rem;
+            top:.2rem;
+          }
+        }
+        .noEasyEat{
+          width: 100%;
+          display: none;
+          margin-top: .2rem;
+          a{
+            width: 100%;
+            display: -webkit-flex;
+            dl{
+              -webkit-flex:1;
+              dt{
+                width: 2.8rem;
+                height: 2.8rem;
+                img{
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              dd{
+                color:#000;
+                text-overflow:ellipsis;
+              }
+            }
+          }
+        }
+        .EasyEat{
+         // display: block;
+          .scroll{
+            overflow-y: auto;
+          }
+           @extend .noEasyEat;
+        }
+      }
+    }
+  }
+}

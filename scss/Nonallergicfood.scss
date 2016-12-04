@@ -1,0 +1,165 @@
+@import "reset";
+html,body,.Nonallergicfood{
+  width: 100%;
+  height: 100%;
+}
+.Nonallergicfood{
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+.Nonallergicfood_header{
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+  background: #000;
+  display: -webkit-flex;
+  color:#fff;
+  position: relative;
+  .return{
+    position: absolute;
+    left:.25rem;
+    font-size: .35rem;
+  }
+  h1{
+    margin-left:43%;
+    font-size: .35rem;
+  }
+  p{
+    position: absolute;
+    right: .2rem;
+    font-size: 20px;
+    span{
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      margin-left: .1rem;
+      border-radius: 8px;
+    }
+  }
+}
+.Nonallergicfood_main{
+  width: 100%;
+  -webkit-flex:1;
+  overflow: hidden;
+  .Nonallergicfood_main_header{
+    width:100%;
+    height: .88rem;
+    line-height:.88rem;
+    display: -webkit-flex;
+    position: relative;
+    font-size: .35rem;
+    span{
+      position: absolute;
+      left:.25rem;
+      color:#989898;
+    }
+    h1{
+      margin-left: 43%;
+
+    }
+
+  }
+  .Nonallergicfood_main_main{
+    width: 100%;
+    height: 100%;
+    background: url('../img/4.png');
+    position: relative;
+    .ribbit{
+      position: absolute;
+      width: 7rem;
+      height: 9rem;
+      top:1.18rem;
+      left:.2rem;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+    h1{
+      position: absolute;
+      left:3rem;
+      top:1.74rem;
+      font-size: .4rem;
+      color:#C65825;
+    }
+    .Nonallergicfood_choose{
+      width: 100%;
+      display: -webkit-flex;
+      position: absolute;
+      left:1.3rem;
+      top:2.55rem;
+      p{
+        position: relative;
+        width: .37rem;
+        height: .32rem;
+        input{
+          position: absolute;
+          width: .6rem;
+          height: .6rem;
+          left:0;
+          top:0;
+          opacity: 0;
+
+        }
+        label{
+          width: .6rem;
+          height: .6rem;
+          position: absolute;
+          left:0;
+          top:0;
+          background: url('../img/8.png') no-repeat;
+          background-size: 100% 100%;
+        }
+        input[type=radio]:checked+label{
+          background: url('../img/9.png') no-repeat;
+          background-size: 100% 100%;
+        }
+        span{
+          position: absolute;
+          top:.1rem;
+          left:.8rem;
+          font-size: .4rem;
+        }
+        &:nth-child(2){
+          margin-left: 3rem;
+        }
+      }
+    }
+    .Nonallergicfood_illness{
+      position: absolute;
+      left:1.3rem;
+      top:4.3rem;
+      border: 1px solid #999;
+      width: 70%;
+      height: 2.24rem;
+      ul{
+        width: 100%;
+        display: -webkit-flex;
+        -webkit-flex-wrap:wrap;
+        li{
+          width: 30%;
+          text-align: center;
+          border: 1px solid #999;
+          margin: .15rem 0 0 .1rem;
+          border-radius:3px;
+          padding: .05rem 0;
+        }
+        li.active{
+          background: #f6514b;
+          color:#fff;
+        }
+      }
+    }
+    .Nonallergicfood_continue{
+      position: absolute;
+      left:3.5rem;
+      top:8.1rem;
+      font-size: .4rem;
+      color:#b00600;
+    }
+  }
+}

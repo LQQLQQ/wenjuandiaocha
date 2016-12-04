@@ -1,0 +1,174 @@
+@import "reset";
+html,body,.sex{
+  width: 100%;
+  height: 100%;
+}
+.sex{
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction:column;
+}
+.sex_header{
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+  background: #000;
+  display: -webkit-flex;
+  color:#fff;
+  position: relative;
+  .return{
+    position: absolute;
+    left:.25rem;
+    font-size: .35rem;
+  }
+  h1{
+    margin-left:43%;
+    font-size: .35rem;
+  }
+  p{
+    position: absolute;
+    right: .2rem;
+    font-size: 20px;
+    span{
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      margin-left: .1rem;
+      border-radius: 8px;
+    }
+  }
+}
+.sex_main{
+  width: 100%;
+  -webkit-flex:1;
+  overflow: hidden;
+  .sex_main_header{
+    width:100%;
+    height: .88rem;
+    line-height:.88rem;
+    display: -webkit-flex;
+    position: relative;
+    font-size: .35rem;
+    span{
+      position: absolute;
+      left:.25rem;
+      color:#989898;
+    }
+    h1{
+      margin-left: 43%;
+
+    }
+
+
+  }
+  .sex_main_main{
+    width: 100%;
+    height: 100%;
+    background: url('../img/4.png');
+    position: relative;
+    .ribbit{
+      position: absolute;
+      width:93%;
+      height: 9rem;
+      top:1.18rem;
+      left:.2rem;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+    h1{
+      position: absolute;
+      left:2.6rem;
+      top:1.74rem;
+      font-size: .4rem;
+      color:#C65825;
+    }
+  }
+
+  .sex_nan_nv{
+    position: absolute;
+    left:1.59rem;
+    top:2.67rem;
+    ul{
+      display: -webkit-flex;
+      li{
+        text-align: center;
+        border-right:1px solid #000;
+        margin-left: .53rem;
+        p{
+          width: 1.5rem;
+          height: 1.9rem;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+
+        }
+        .sex_radio{
+          width: .37rem;
+          height: .32rem;
+          position: relative;
+          margin: .4rem 0 0 .2rem;
+        /* &.active{
+           width: .37rem;
+           height: .32rem;
+            background: url('../img/9.png');
+          }*/
+          input{
+            opacity: 0;
+            display:block;
+            width: .6rem;
+            height: .6rem;
+            position: absolute;
+            left:0;
+            top:0;
+          }
+          label{
+            width: .37rem;
+            height: .32rem;
+            position: absolute;
+            display:block;
+            left:0;
+            top:0;
+            z-index:9999;
+            background: url('../img/8.png')no-repeat;
+            background-size: 100% 100%;
+          }
+          input[type=radio]:checked+label{
+            width: .37rem;
+            height: .32rem;
+            position: absolute;
+            display:block;
+            left:0;
+            top:0;
+            z-index:9999;
+            background: url('../img/9.png')no-repeat;
+            background-size: 100% 100%;
+          }
+        }
+
+      }
+      .limit{
+        margin-right:.53rem; ;
+      }
+      .none{
+        border: none;
+      }
+      .sex_text{
+        margin-top: .47rem;
+      }
+    }
+    .sex_continue{
+      position:absolute;
+      top:5.45rem;
+      left:1.9rem;
+      font-size: .4rem;
+      color:#b00600;
+    }
+  }
+
+}

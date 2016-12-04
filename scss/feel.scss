@@ -1,0 +1,142 @@
+@import "reset";
+html,body,.feel{
+  width: 100%;
+  height: 100%;
+}
+.feel{
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+.feel_header{
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+  background: #000;
+  display: -webkit-flex;
+  color:#fff;
+  position: relative;
+  .return{
+    position: absolute;
+    left:.25rem;
+    font-size: .35rem;
+  }
+  h1{
+    margin-left:43%;
+    font-size: .35rem;
+  }
+  p{
+    position: absolute;
+    right: .2rem;
+    font-size: 20px;
+    span{
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      margin-left: .1rem;
+      border-radius: 8px;
+    }
+  }
+}
+.feel_main{
+  width: 100%;
+  -webkit-flex:1;
+  overflow: hidden;
+  .feel_main_header{
+    width:100%;
+    height: .88rem;
+    line-height:.88rem;
+    display: -webkit-flex;
+    position: relative;
+    font-size: .35rem;
+    span{
+      position: absolute;
+      left:.25rem;
+      color:#989898;
+    }
+    h1{
+      margin-left: 43%;
+
+    }
+
+  }
+  .feel_main_main{
+    width: 100%;
+    height: 100%;
+    background: url('../img/4.png');
+    position: relative;
+    .ribbit{
+      position: absolute;
+      width: 94%;
+      height: 10rem;
+      top:.5rem;
+      left:.2rem;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+    h1{
+      position: absolute;
+      left:2.4rem;
+      top:1.74rem;
+      font-size: .4rem;
+      color:#C65825;
+    }
+    ul{
+      position: absolute;
+      left:.58rem;
+      top: .8rem;
+      p{
+        width: 100%;
+        margin-top: .36rem;
+        span{
+          margin-right: .18rem ;
+        }
+      }
+      .feel_list{
+        width: 100%;
+        display: -webkit-flex;
+        margin: .2rem 0 0 .2rem;
+        span{
+          -webkit-flex:1;
+          border: 1px solid #999;
+          padding: .1rem;
+          margin-right: .24rem;
+          border-radius:3px;
+          padding: .14rem;
+        }
+        span.active{
+          background:#f6514b;
+          color:#fff;
+        }
+      }
+    }
+    .feel_submit{
+      position: absolute;
+      left:2.36rem;
+      top:9.7rem;
+      width: 2.3rem;
+      height: .78rem;
+      position: relative;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      span{
+        position: absolute;
+        left:.46rem;
+        top:.15rem;
+        font-size: .4rem;
+        color:#b00600;
+
+      }
+
+    }
+
+
+  }
+}
