@@ -34,6 +34,8 @@ $('.levelQuality_main_main_header').on('click',function(){
     $('.levelQuality_main_main_header2').show();
     $('.levelQuality_main_main_header2').on('click',function(){
         $('.levelQuality_main_main_header2_content').show();
+        $('.levelQuality_main_main_header').hide();
+        $(this).show();
         $('.fulltext').on('click',function(){
             $(this).find('span').html('∧');
             $('.fulltext_text').show();
@@ -48,13 +50,7 @@ $('.levelQuality_main_main_header').on('click',function(){
 
 
 })
-//点击第三个头
-$('.levelQuality_main_main_header2').on('click',function(){
-    //$(this).hide();
-    $('.levelQuality_main_main_header2_content').hide();
-    $('.levelQuality_main_main_header').show();
 
-})
 
 
 

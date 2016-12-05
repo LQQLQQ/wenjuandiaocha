@@ -201,10 +201,12 @@ html,body,.levelQuality{
         }
         .EasyEat{
          // display: block;
-          .scroll{
-            overflow-y: auto;
-          }
            @extend .noEasyEat;
+        }
+        .scroll{
+          width: 100%;
+          height:400px;
+          overflow-y: auto;
         }
       }
     }
