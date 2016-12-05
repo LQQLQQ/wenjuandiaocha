@@ -98,19 +98,21 @@ html,body,.Nonallergicfood{
         height: .32rem;
         input{
           position: absolute;
-          width: .6rem;
-          height: .6rem;
+          width: .37rem;
+          height: .32rem;
+          display: block;
           left:0;
-          top:0;
+          top:.2rem;
           opacity: 0;
 
         }
         label{
-          width: .6rem;
-          height: .6rem;
+          width: .37rem;
+          height: .32rem;
+          display: block;
           position: absolute;
           left:0;
-          top:0;
+          top:.2rem;
           background: url('../img/8.png') no-repeat;
           background-size: 100% 100%;
         }
